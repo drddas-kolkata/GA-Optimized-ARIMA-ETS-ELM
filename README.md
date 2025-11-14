@@ -1,6 +1,6 @@
 # GA-Optimized-ARIMA-ETS-ELM
 # GA-Optimized Hybrid ARIMA-ETS-ELM Model
-This repository contains all the R scripts required to reproduce the experimental framework, model development, forecasting, and evaluation.
+This repository contains all the R scripts required to reproduce the experimental framework, model development, forecasting, and evaluation. The repository does not contain the raw dengue data file obtained from [1]. Instead, the analysis uses a cleaned and cumulative processed vector directly embedded in the code to ensure full reproducibility of the results submitted with the manuscript
 
 # Repository Structure:
 
@@ -37,6 +37,8 @@ Run the scripts in the following order:
 
 6_Hybrid_Accuracy.R
 
+# References
+World Health Organization. (2025). Global dengue surveillance. Retrieved January 2025, from https://worldhealthorg.shinyapps.io/dengue_global/
 
 # Software Environment
 R version: (4.4.2)
