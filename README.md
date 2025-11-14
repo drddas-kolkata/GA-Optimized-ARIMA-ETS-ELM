@@ -1,6 +1,6 @@
 # GA-Optimized-ARIMA-ETS-ELM
 # GA-Optimized Hybrid ARIMA-ETS-ELM Model
-This repository contains all the R scripts required to reproduce the experimental framework, loading libraries, loading data, hyper-parameter tuning, final model development, forecasting using final optimized moddel, and evaluation. The repository does not contain the raw dengue data file obtained from [1]. Instead, the analysis uses a cleaned and cumulative processed vector directly embedded in the code to ensure full reproducibility of the results submitted with the manuscript.
+This repository contains all the R scripts required to reproduce the experimental framework, including library loading, data loading, hyperparameter tuning, final model development, forecasting using the optimized model, and performance evaluation. The repository does not include the raw dengue data file obtained from [1]. Instead, the analysis uses a cleaned and cumulatively processed data vector directly embedded in the code to ensure full reproducibility of the results submitted with the manuscript.
 
 # Repository Structure:
 
