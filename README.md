@@ -1,6 +1,6 @@
 # GA-Optimized-ARIMA-ETS-ELM
 # GA-Optimized Hybrid ARIMA-ETS-ELM Model
-This repository contains all the R scripts and dataset required to reproduce the experimental framework, model development, forecasting, and evaluation.
+This repository contains all the R scripts required to reproduce the experimental framework, model development, forecasting, and evaluation.
 
 # Repository Structure:
 
@@ -15,8 +15,6 @@ This repository contains all the R scripts and dataset required to reproduce the
 ├── 5_Final_Forecast.R
 
 ├── 6_Hybrid_Accuracy.R
-
-├── dengue_data.txt
 
 └── README.md
 
