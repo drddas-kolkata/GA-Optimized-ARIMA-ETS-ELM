@@ -37,8 +37,8 @@ Run the scripts in the following order:
 
 6_Hybrid_Accuracy.R
 
-# References
-World Health Organization. (2025). Global dengue surveillance. Retrieved January 2025, from https://worldhealthorg.shinyapps.io/dengue_global/
-
 # Software Environment
 R version: (4.4.2)
+
+# References
+[1] World Health Organization. (2025). Global dengue surveillance. Retrieved January 2025, from https://worldhealthorg.shinyapps.io/dengue_global/
