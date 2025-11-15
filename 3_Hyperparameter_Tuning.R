@@ -41,8 +41,8 @@ ga_model <- ga(
   popSize = 20,      # Population size
   maxiter = 50,      # Number of generations
   run = 10,          # Stop if no improvement in 10 iterations
-  pcrossover = 0.8,
-  pmutation = 0.1,
+  pcrossover = 0.8,  # Probability of crossover
+  pmutation = 0.1,   # Probability of mutation
   seed = 123         # For reproducibility
 )
 
@@ -65,3 +65,4 @@ plot(hidden_nodes_searched, rmse_values, pch = 16, col = "blue",
 # Highlight the optimal hidden nodes
 points(optimal_hd, min(rmse_values), col = "red", pch = 19, cex = 1.5)
 text(optimal_hd, min(rmse_values), labels = paste("Optimal:", optimal_hd), pos = 3, col = "red")
+
